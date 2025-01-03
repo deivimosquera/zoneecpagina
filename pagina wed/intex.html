@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a Jc Zone Ec.</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para el video de fondo */
+        #background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Hace que el video cubra toda la pantalla */
+            z-index: -1; /* Coloca el video detrás del contenido */
+        }
+
+        /* Estilo para el contenido dentro del body */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white; /* Color del texto para que sea visible sobre el video */
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            padding: 50px;
+            z-index: 1; /* Asegura que el header esté sobre el video */
+        }
+
+        .logo img {
+            width: 150px; /* Ajusta el tamaño del logo */
+        }
+
+        h1, p {
+            font-size: 2rem;
+        }
+
+        /* Botones de navegación */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Video de fondo -->
+    <video id="background-video" autoplay loop muted>
+        <source src="A.jpg" type="video/mp4">
+        Tu navegador no soporta el formato de video.
+    </video>
+
+    <!-- Header con logo, título y foto -->
+    <header>
+        <div class="logo">
+            <img src="w1.jpg" alt="Logo de Jc Zone Ec.">
+        </div>
+        <h1>¡Bienvenidos a Jc Zone Ec.!</h1>
+        <p>¡Descubre todo lo que tenemos para ofrecer y explora un mundo lleno de magia y diversión!</p>
+    </header>
+    <hr>
+
+    <!-- Imagen de portada centrada -->
+    <div class="header-image">
+        <img src="w2.jpg" alt="Imagen destacada de productos o niños divirtiéndose">
+    </div>
+    <hr>
+
+    <!-- Botones de navegación -->
+    <section class="button-container">
+        <a href="file:///C:/Users/HP/Downloads/pagina%20de%20adquirir%20trabajo%20vh/pagina%20wed/wstapp.html" class="button whatsapp ">Contáctanos en WhatsApp</a>
+        <a href="file:///C:/Users/HP/Downloads/pagina%20de%20adquirir%20trabajo%20vh/pagina%20wed/catalogo.html" class="button catalogo">Ver nuestro catálogo</a>
+        <a href="file:///C:/Users/HP/Downloads/pagina%20de%20adquirir%20trabajo%20vh/pagina%20wed/personal.html" class="button equipo">Conoce al equipo</a>
+        <a href="file:///C:/Users/HP/Downloads/pagina%20de%20adquirir%20trabajo%20vh/pagina%20wed/ubicasion.html#how-to-get-here" class="button ubicacion">Ver ubicación</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jc Zone Ec. - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
